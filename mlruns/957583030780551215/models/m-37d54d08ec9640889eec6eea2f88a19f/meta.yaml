@@ -1,0 +1,10 @@
+artifact_location: file:///C:/ITAM/Mod%20I%20-%20python_avanzado/credit-risk-scoring/mlruns/957583030780551215/models/m-37d54d08ec9640889eec6eea2f88a19f/artifacts
+creation_timestamp: 1775945798428
+experiment_id: '957583030780551215'
+last_updated_timestamp: 1775945809697
+model_id: m-37d54d08ec9640889eec6eea2f88a19f
+model_type: null
+name: sklearn_model
+source_run_id: 2fd4811edc4a4a748ab2c2da3aa46b8c
+status: 2
+status_message: null

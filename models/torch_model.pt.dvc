@@ -1,0 +1,5 @@
+outs:
+- md5: 0862bc6de1686aa4394910c810eea0db
+  size: 19077
+  hash: md5
+  path: torch_model.pt

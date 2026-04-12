@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/ITAM/Mod%20I%20-%20python_avanzado/credit-risk-scoring/mlruns/957583030780551215/26ea30ea2df84a8291c0d641f3b12c92/artifacts
+end_time: 1775265241526
+entry_point_name: ''
+experiment_id: '957583030780551215'
+lifecycle_stage: active
+run_id: 26ea30ea2df84a8291c0d641f3b12c92
+run_name: logistic_regression_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775265233623
+status: 3
+tags: []
+user_id: alber

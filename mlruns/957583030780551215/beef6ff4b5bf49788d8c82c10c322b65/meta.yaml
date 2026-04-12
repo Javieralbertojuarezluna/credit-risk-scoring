@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ITAM/Mod%20I%20-%20python_avanzado/credit-risk-scoring/mlruns/957583030780551215/beef6ff4b5bf49788d8c82c10c322b65/artifacts
+deleted_time: 1775265889346
+end_time: 1775265309221
+entry_point_name: ''
+experiment_id: '957583030780551215'
+lifecycle_stage: deleted
+run_id: beef6ff4b5bf49788d8c82c10c322b65
+run_name: pytorch_mlp
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775265309139
+status: 4
+tags: []
+user_id: alber

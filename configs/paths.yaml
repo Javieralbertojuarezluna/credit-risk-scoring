@@ -1,0 +1,9 @@
+project:
+  name: credit-risk-scoring
+
+paths:
+  raw_data: data/raw/LoanDataset.csv
+  processed_data: data/processed/loan_dataset_processed.csv
+  models_dir: models/
+  notebooks_dir: notebooks/
+  mlruns_dir: mlruns/

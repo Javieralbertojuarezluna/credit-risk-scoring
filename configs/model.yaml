@@ -1,0 +1,50 @@
+data:
+  target_column: target
+  original_target_column: Current_loan_status
+  positive_class: DEFAULT
+  negative_class: NO DEFAULT
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+features:
+  drop_columns:
+    - customer_id
+    - Current_loan_status
+  numerical_features:
+    - customer_age
+    - customer_income
+    - loan_amnt
+    - loan_int_rate
+    - term_years
+    - historical_default
+    - cred_hist_length
+    - debt_income_ratio
+    - credit_maturity
+    - employment_years
+  categorical_features:
+    - home_ownership
+    - loan_intent
+    - loan_grade
+    - age_group
+
+sklearn:
+  logistic_regression:
+    max_iter: 1000
+    solver: lbfgs
+    class_weight: null
+
+grid_search:
+  scoring: f1
+  param_grid:
+    classifier__C: [0.01, 0.1, 1, 10]
+    classifier__class_weight: [null, balanced]
+    classifier__solver: [lbfgs, liblinear]
+
+torch:
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 30
+  hidden_dim_1: 64
+  hidden_dim_2: 32
+  dropout: 0.2

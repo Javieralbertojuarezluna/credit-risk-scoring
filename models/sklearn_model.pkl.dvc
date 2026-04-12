@@ -1,0 +1,5 @@
+outs:
+- md5: 81d6bd467dd35cd0c34ea3a761812315
+  size: 6236
+  hash: md5
+  path: sklearn_model.pkl
