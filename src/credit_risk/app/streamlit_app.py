@@ -6,16 +6,17 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from src.credit_risk.app.inference import prepare_input_data
-from src.credit_risk.models.sklearn_model import SklearnCreditModel
-
+# Primero resolvemos la raíz del proyecto y ajustamos el path
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.credit_risk.app.inference import prepare_input_data
+from src.credit_risk.models.sklearn_model import SklearnCreditModel
+
 st.set_page_config(page_title="Credit Risk Scoring", layout="wide")
 
-MODEL_PATH = PROJECT_ROOT / "src" / "credit_risk" / "models" / "sklearn_model.pkl"
+MODEL_PATH = PROJECT_ROOT / "models" / "sklearn_model.pkl"
 
 if not MODEL_PATH.exists():
     raise FileNotFoundError(f"No se encontró el modelo en: {MODEL_PATH}")

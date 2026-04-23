@@ -15,6 +15,7 @@ COPY configs ./configs
 COPY data ./data
 COPY .env.example ./
 COPY README.md ./
+COPY models ./models
 
 EXPOSE 8501
 

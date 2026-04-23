@@ -12,3 +12,4 @@ tests
 *.pyo
 *.pyd
 .env
+dvc_storage
