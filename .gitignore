@@ -1,0 +1,29 @@
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# environments
+.venv/
+.env
+
+# mlflow local artifacts
+mlruns/
+mlflow.db
+
+#dvc local storage
+dvc_storage/
+
+# local data and model binaries managed by DVC
+data/raw/*.csv
+models/*.pkl
+models/*.pt
+
+# Notebooks local artifacts
+notebooks/mlruns/
+notebooks/models/
